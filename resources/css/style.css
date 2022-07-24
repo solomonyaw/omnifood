@@ -188,6 +188,10 @@ a:hover
     border:1px solid rgb(214, 15, 15);
     color:#fff;
 }
+.btn-ghost2:link, .btn-ghost2:visited{
+    border:1px solid rgb(214, 15, 15);
+    color:rgb(24, 21, 21);
+}
 
 
 .btn-ghost:hover, .btn-ghost:active{
@@ -230,7 +234,7 @@ transform: translate(-50%,-50%);
     float: right;
     list-style: none;
     text-decoration: none;
-    background-color:rgb(214, 15, 15) ;
+    background-color:rgba(32, 25, 25, 0.87) ;
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 2px;
@@ -457,3 +461,73 @@ margin-left: 10%;
     margin-left: 10px;
     font-size: 15px;
 }
+
+/*  --------------------------*/
+/*  PLANS SECTION*/
+/*  --------------------------*/
+.section-plans
+{
+    background-color:  rgba(214, 15, 15, 0.082);
+}
+.section-plans h2
+{
+    color: rgb(71, 63, 63);
+}
+
+.plan-box{
+    float: center;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    padding: 10px;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px rgb(224, 222, 222);
+
+}
+
+.plan-box ul li{
+    list-style: none;
+    padding: 5px 0;
+    font-style:oblique;
+
+}
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid rgb(170, 160, 160);
+}
+.plan-price
+{
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+     color: #16a71d;
+}
+
+.plan-price span
+{
+    font-size: 30%;
+    font-weight: 300;
+    color: #16a71d;
+   
+}
+.price-per-meal
+{
+    font-size: 80%;
+}
+
+.plan-box div:first-child{
+    background-color: #f0f1f7;
+ }
+ 
+
+.plan-box div:last-child{
+   text-align: center;
+   border-bottom: none;
+}
+
+
+
+
+
+
+
