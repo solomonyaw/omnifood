@@ -7,13 +7,14 @@
     box-sizing: border-box;
 }
 
-html{
+html,body{
     font-family: 'Lato',sans-serif;
     background-color: #fff;
     color: rgb(63, 57, 57);
     font-size: 20px;
     font-weight: 400;
      text-rendering: optimizeLegibility;
+     overflow-x: hidden;
     
 }
 
@@ -580,8 +581,87 @@ margin-left: 10%;
     outline: none;
 }
 
+/*  --------------------------*/
+/*  SECTION FOOTER*/
+/*  --------------------------*/
+footer{
+    background-color: rgb(44, 42, 42);
+    padding: 20px;
+    font-size: 10px;
+}
+
+.footer-nav li
+{
+    display:inline-block;
+    margin-right: 2 0px;
+    margin-right: 20px;
+}
+
+.social-links li {
+    display:inline-block;  
+   float: right;
+   margin-right: 20px;
+}
 
 
+.footer-nav
+{
+    font-size: 10px;
+}
 
+.social-links {  
+ list-style: none;
+}
+.footer-row
+{
+    width: 90%;
+}
+
+.footer-nav li a, .social-links li a
+{
+    text-decoration: none;
+    color: rgb(175, 170, 170);
+    border: 0;
+    font-size: 12px;
+}
+.social-links i{
+    color: rgb(175, 170, 170);
+}
+.footer-nav li a:hover
+{
+    color: #fff;
+    transition: color 1s;
+}
+
+footer p{
+    color: rgb(175, 170, 170);
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.ion-social-facebook:hover
+{
+color: #3b5998;
+transition: color 1s;
+}
+
+.ion-social-twitter:hover{
+    color: #00aced;
+    transition: color 1s;
+}
+
+.ion-social-googleplus:hover
+{
+color:#dd4b39;
+transition: color 1s;
+}
+.ion-social-instagram:hover
+{
+color:#517fa4;
+transition: color 1s;
+}
 
 
