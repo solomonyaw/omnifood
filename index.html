@@ -282,5 +282,44 @@
     </div>
     </div>
 </section>
+ <!-- section contact form -->
+<section class="contact-form">
+    <div class="row">
+        <h2>We are Glad to hear from you</h2>
+    </div>
+<div class="row contact-row">
+    <form action="#" method="post">
+    <table class="form">
+        <tr>
+            <td><label for="name" name="name" class="td1">Name:</label></td>
+            <td><input class="td2" type="text" name="name" required placeholder="enter your name"></td>
+        </tr>
+        <tr>
+            <td><label for="email" class="td1"name="email">Email:</label></td>
+            <td><input type="email" class="td2" name="email" required placeholder="enter your email"></td>
+        </tr>
+        <tr>
+            <td><label  class="td1" name="combo-find">How did you find us</label></td>
+            <td><select name="how-combo" class="td2">
+                <option name="facebook" value="facebook">friends</option>
+                <option name="google" value="google">search engine</option>
+                <option name="twitter" value="twitter">advertisement</option>
+                <option name="friend" value="friend">other</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label class="td1" name="newsletter">Newsletter?</label></td>
+            <td><input type="checkbox"  name="newsletter" checked><p class="checktext">Yes Please</p></td>
+        </tr>
+        <tr>
+            <td><label class="td1" name="message">Drop us a message</label></td>
+            <td><textarea name="message" class="td2"rows="3" cols="20">Enter your message</textarea></td>
+        </tr>
+    </table>
+  <input type="submit" class="btn btn-full btn-message" id="submit" value="Send it!" name="submit">
+</form>
+</div>
+</section>
 </body>
 </html>
